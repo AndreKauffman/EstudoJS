@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+
+        body{
+
+            background-color: darkmagenta;
+            color: wheat;
+            font: normal 18pt arial
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>iniciando DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>aprendendo a usar <strong>DOM.<strong></p>
+    <div class= 'msg'>Clique em mim</div>
+    
+    <script>
+        var corpo = window.document.body
+
+        /* // (selecionados por marca n precisa especificar a 'div')
+        var p1 = window.document.getElementsByTagName('p')[1]
+        */
+
+        /* // (selecionados do queryselector 'id = # e class = .')
+        var d = window.document.querySelector('div.msg')
+        d.style.background = 'blue'
+        */
+        
+      
+        /* //  (selecionados po ID 'div id')
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'estou aguardando'
+        */ 
+
+        // alert(p1.innerText) //aparece o texto 
+        // alert(p1.innerHtml) //aparece o texto escrito no vscode
+
+    </script>
+</body>
+</html>
